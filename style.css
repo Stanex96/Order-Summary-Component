@@ -1,0 +1,100 @@
+/* Text styles */
+
+.txt {
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+h1{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.pubtxt1{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 4%;
+}
+
+.pubtxt2{
+    color: grey;
+    font-size: 16px;
+}
+
+.link{
+    color: blue;
+    text-decoration: underline blue;
+    padding-right: 5%;
+    float: right;
+    text-align: right;
+    vertical-align: middle;
+}
+
+h2{
+    font-size: 16xp;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-top: 15%;
+}
+
+h3{
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+}
+/* Images & zones styles */
+
+.pub{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    width: auto;
+    height: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.zone{
+    background-color: white;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+    height: 700px;
+    width: 500px;
+}
+
+.hero{
+    margin: auto;
+    border-radius: 15px 15px 0px 0px;
+    width: 500px;
+}
+
+.music{
+    float: left;
+    padding-left: 10%;
+}
+
+body{
+    background-image: url(./pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 98%);
+}
